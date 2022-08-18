@@ -14,7 +14,7 @@ export const Profile = () => (
     </div>
 
     <p className="text-primary-1 text-center">
-      I'm a student at Ritsumeikan University majoring in Information Science
+      I am a student at Ritsumeikan University majoring in Information Science
       and Security.
     </p>
 
