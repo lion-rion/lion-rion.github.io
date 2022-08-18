@@ -5,8 +5,8 @@ const nextConfig = {
   trailingSlash: true,
 };
 
-module.exports = nextConfig{
+module.exports = {
   // some configuration
-  assetPrefix: process.env.NODE_ENV === "production" ? "/test.github.io" : ""
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/test.github.io' : '',
   // another configuration
 };
