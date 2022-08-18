@@ -11,14 +11,7 @@ type Props = {
   slug: string;
 };
 
-export const Story = ({
-  title,
-  coverImage,
-  date,
-  tags,
-  excerpt,
-  slug,
-}: Props) => {
+export const Story = ({ title, coverImage, date, tags, slug }: Props) => {
   return (
     <Link href={`/posts/${slug}`}>
       <a className="card w-45 lg:w-[23%] lg:m-2.5 m-2">
@@ -39,7 +32,7 @@ export const Story = ({
             ))}
           </div>
           <h4 className="card__title">{title}</h4>
-          <p className="card__date">{date}</p>
+          <Date date={date} />
         </div>
       </a>
     </Link>
