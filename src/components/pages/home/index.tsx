@@ -23,9 +23,11 @@ export const Home: React.VFC<Props> = ({ posts }) => {
               icon={<RiChatNewLine />}
             />
           </div>
-          <Link href="/posts/page/1" passHref>
-            <a className="button">記事一覧へ</a>
-          </Link>
+          {
+            //<Link href="/posts/page/1" passHref>
+            //  <a className="button">記事一覧へ</a>
+            //</Link>
+          }
         </div>
       }
     />
