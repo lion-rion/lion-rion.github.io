@@ -6,7 +6,7 @@ type Props = {
 };
 
 export const Date: React.VFC<Props> = ({ date }) => (
-  <div className="hstack gap-2 text-md font-medium text-accent-1">
+  <div className="">
     <RiTimeFill />
     {formatDate(date)}
   </div>

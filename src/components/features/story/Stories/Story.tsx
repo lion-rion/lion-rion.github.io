@@ -1,4 +1,3 @@
-import { Date } from '@/components/common/Date';
 import { Image } from '@/components/common/Image';
 import { Link } from '@/components/common/Link';
 
@@ -27,12 +26,12 @@ export const Story = ({ title, coverImage, date, tags, slug }: Props) => {
           <div className="flex">
             {tags.map((tag) => (
               <Link key={tag} href={`/tags/${tag}`} passHref>
-                <a className="tag hidden lg:block">{tag}</a>
+                <a className="card__tag hidden lg:block">{tag}</a>
               </Link>
             ))}
           </div>
           <h4 className="card__title">{title}</h4>
-          <Date date={date} />
+          <p className="card__date lg:text-[13px]">{date}</p>
         </div>
       </a>
     </Link>
