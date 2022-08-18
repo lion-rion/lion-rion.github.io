@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./post.css');
+@import url('./toc.css');
+
+@layer base {
+  /* body {
+    background-color: var(--colors-loContrast);
+    font-family: Yu Gothic, yugothic, ヒラギノ角ゴ ProN, Hiragino Kaku Gothic ProN,
+      メイリオ, meiryo, sans-serif;
+  } */
+}
+
+@layer components {
+  .bg-global {
+    @apply bg-neutral-50 dark:bg-neutral-900;
+  }
+  .bg-primary-1 {
+    @apply bg-white dark:bg-neutral-800;
+  }
+  .text-primary-1 {
+    @apply text-neutral-800 dark:text-white;
+  }
+  .text-accent-1 {
+    @apply text-teal-800 dark:text-teal-400;
+  }
+  .button {
+    @apply center gap-2 py-3 px-4 rounded-lg text-base font-normal bg-teal-700 text-white;
+  }
+  .icon-btn {
+    @apply text-primary-1 p-3;
+  }
+  .badge {
+    @apply text-xs flex items-center font-bold px-3 py-1 bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .vstack {
+    @apply flex flex-col;
+  }
+  .hstack {
+    @apply flex items-center;
+  }
+  .wrap {
+    @apply hstack flex-wrap;
+  }
+  .center {
+    @apply flex items-center justify-center;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.mg-10 {
+  margin: 10px;
+}
+
+/*メインページのプロフカード設定*/
+
+.wi-1000 {
+  width: 1280px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mg-0-auto {
+  margin: 0 auto;
+}
+
+.mt-n30 {
+  margin-top: -30px;
+}
+
+/*ブログカードの設定*/
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--c-base-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px -2px #000a3c1a;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.mg-auto {
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px -4px #001b4433;
+}
+
+.card__body {
+  background-color: #fff;
+  padding: 5px 5px 10px 5px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0.5rem 0.5rem;
+  overflow: hidden;
+  height: 6em;
+  text-overflow: ellipsis;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  max-height: 5.05em;
+}
+
+.card__date {
+  font-weight: 700;
+  font-size: 11px;
+  padding: 0.5rem 0.5rem;
+  color: rgb(163, 163, 163);
+}
+
+.tag {
+  background: rgb(16, 119, 187);
+  color: #fff;
+  padding: 2px 8px;
+  font-weight: 600;
+  font-size: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
