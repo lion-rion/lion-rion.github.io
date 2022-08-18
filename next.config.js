@@ -1,12 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: process.env.GITHUB_ACTIONS ? '/test.github.io' : '',
+  basePath: process.env.GITHUB_ACTIONS ? '/lion-rion.github.io' : '',
   trailingSlash: true,
-};
-
-module.exports = {
-  // some configuration
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/test.github.io' : '',
-  // another configuration
 };
