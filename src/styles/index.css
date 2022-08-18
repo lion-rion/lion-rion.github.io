@@ -26,7 +26,7 @@
     @apply text-teal-800 dark:text-teal-400;
   }
   .button {
-    @apply center gap-2 py-3 px-4 rounded-lg text-base font-normal bg-teal-700 text-white;
+    @apply center gap-2 py-3 px-4 rounded-lg text-base font-normal bg-teal-700 text-white w-3/6;
   }
   .icon-btn {
     @apply text-primary-1 p-3;
@@ -129,7 +129,7 @@
   color: rgb(163, 163, 163);
 }
 
-.tag {
+.card__tag {
   background: rgb(16, 119, 187);
   color: #fff;
   padding: 2px 8px;
