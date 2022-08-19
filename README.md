@@ -1,16 +1,10 @@
-# Blog Template
+## 使い方
 
-個人ブログのテンプレートです。
+`_posts`ディレクトリにマークダウン形式のファイルを追加するとGithub Actionsで自動的に記事が追加される
 
-`_posts`ディレクトリにmdファイルで作成した記事を追加するだけで始めることができます。もちろん、ZennやQiitaの投稿を流用することも可能です。
+## Page
 
-詳しくは下記の記事をご覧ください。
-
-[Next.js + GitHub Pagesのブログテンプレートを作った →](https://zenn.dev/subt/articles/957bd5d01485e1)
-
-## Demo
-
-https://sub-t.github.io/blog-template/
+https://lion-rion.github.io/
 
 ## Features
 
@@ -24,18 +18,8 @@ https://sub-t.github.io/blog-template/
 ## Development
 
 ```bash
-git clone https://github.com/sub-t/blog-template project-name
+git clone https://lion-rion.github.io/
 cd project-name
-yarn
-yarn dev
+npm install
+npm run dev
 ```
-
-## Deployment
-
-こちらの記事を参考にしてください。
-
-[Next.js で作ったブログを GitHub Pages にデプロイする →](https://jamband.github.io/blog/2021/08/deploy-nextjs-app-to-github-pages/)
-
-## License
-
-MIT
