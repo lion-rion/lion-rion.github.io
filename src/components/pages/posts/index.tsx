@@ -35,7 +35,7 @@ export const Posts: React.VFC<Props> = ({ post }) => {
       />
       <MainLayout
         main={
-          <article>
+          <article className="mt-n30">
             <Post post={post} />
           </article>
         }
