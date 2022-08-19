@@ -18,7 +18,7 @@ export const Story = ({ title, coverImage, date, tags, slug }: Props) => {
           <Image
             src={coverImage}
             alt={`Cover Image for ${title}`}
-            className="card__image"
+            className="card__image h-20 sm:h-32"
             width="600"
           />
         </div>

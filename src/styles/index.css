@@ -218,6 +218,5 @@ p {
 }
 
 .card__image {
-  height: 80px !important;
   object-fit: cover;
 }
