@@ -10,13 +10,13 @@ export const Seo = () => {
   return (
     <>
       <DefaultSeo
-        defaultTitle="blog"
-        description="blog"
+        defaultTitle="Yuki's Blog"
+        description="WebエンジニアYukiのポートフォリオブログです。"
         openGraph={{
           type: 'website',
-          title: 'blog',
+          title: "Yuki's Blog",
           description: 'blog',
-          site_name: 'blog',
+          site_name: "Yuki's Blog",
           url: ROOT_URL,
           images: [
             {
@@ -33,28 +33,29 @@ export const Seo = () => {
           site: '@site',
           cardType: 'summary_large_image',
         }}
+        //ここを変えることでファビコンのサイズの設定が可能
         additionalLinkTags={[
           { rel: 'icon', href: `${rootPath}/favicon.ico` },
           {
             rel: 'icon',
             type: 'image/png',
             sizes: '16x16',
-            href: `${rootPath}/favicons/favicon-16x16.png`,
+            href: `${rootPath}/favicons/favicon.ico`,
           },
           {
             rel: 'icon',
             type: 'image/png',
             sizes: '32x32',
-            href: `${rootPath}/favicons/favicon-32x32.png`,
+            href: `${rootPath}/favicons/favicon.ico`,
           },
           {
             rel: 'apple-touch-icon',
             sizes: '180x180',
-            href: `${rootPath}/favicons/apple-touch-icon-180x180.png`,
+            href: `${rootPath}/favicons/favicon.ico`,
           },
           {
             rel: 'mask-icon',
-            href: `${rootPath}/favicons/safari-pinned-tab.svg`,
+            href: `${rootPath}/favicons/favicon.ico`,
             color: '#5bbad5',
           },
         ]}
