@@ -14,12 +14,12 @@ export const Tag: React.VFC<Props> = ({ posts }) => {
 
   return (
     <MainLayout
+      className="lg:block"
       main={
         <div className="p-8 bg-primary-1">
           <Stories posts={posts} title={tag} icon={<FaHashtag />} />
         </div>
       }
-      aside={<Profile />}
     />
   );
 };
