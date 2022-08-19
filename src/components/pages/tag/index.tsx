@@ -16,7 +16,7 @@ export const Tag: React.VFC<Props> = ({ posts }) => {
     <MainLayout
       className="lg:block"
       main={
-        <div className="p-8 bg-primary-1">
+        <div className="p-4 sm:p-8 bg-primary-1">
           <Stories posts={posts} title={tag} icon={<FaHashtag />} />
         </div>
       }
