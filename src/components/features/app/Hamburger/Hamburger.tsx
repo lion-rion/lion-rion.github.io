@@ -25,7 +25,7 @@ export const Hamburger: React.VFC<Props> = ({ children }) => {
         </button>
       }
     >
-      <div className="center">
+      <div className="">
         {links.map(({ name, href, icon }) => (
           <DropdownMenuItem
             key={name}
