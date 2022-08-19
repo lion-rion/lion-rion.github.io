@@ -98,10 +98,6 @@
   width: 45%;
 }
 
-.mg-auto {
-  margin: 0 auto;
-}
-
 .card:hover {
   box-shadow: 0 6px 30px -4px #001b4433;
 }
