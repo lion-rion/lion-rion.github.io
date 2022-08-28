@@ -20,3 +20,25 @@
 .markdown h6 {
   color: red;
 }
+
+/**
+ * tableタグ（表）
+ */
+.markdown table thead th {
+  background: #9a9a9a;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+}
+.markdown table th,
+.markdown table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+.markdown table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+.markdown table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
