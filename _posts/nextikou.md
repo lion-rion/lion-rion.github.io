@@ -2,7 +2,7 @@
 title: 'サイトをNext.jsにした話'
 excerpt: ''
 coverImage: '/assets/blog/dynamic-routing/next.png'
-date: '2022/08/1'
+date: '2022/08/18'
 ogImage:
   url: '/assets/blog/dynamic-routing/next.png'
 tags:
