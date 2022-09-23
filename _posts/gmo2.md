@@ -2,7 +2,7 @@
 title: 'GMOサマーインターン参加記'
 excerpt: '8月にGMOのサマーインターン5daysに参加したのでここに記録しておきます'
 coverImage: '/assets/blog/dynamic-routing/gmo/gmo_og.jpeg'
-date: '2022/09/4'
+date: '2022/09/04'
 ogImage:
   url: '/assets/blog/dynamic-routing/gmo/gmo_og.jpeg'
 tags: 
