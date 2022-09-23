@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
     'slug',
     'coverImage',
     'excerpt',
-  ]).slice(0, 4); // メインページの最大の記事数
+  ]).slice(0, 100); // メインページの最大の記事数
 
   return {
     props: { posts },
