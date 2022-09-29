@@ -21,12 +21,18 @@ export const About = () => (
                 情報理工学部
                 <br />
                 セキュリティ・ネットワークコース
+              </p>
+              <br />
+              <p>
+                情報理工学部プロジェクト団体RiST
                 <br />
-                <br />
+                --- 団員
+              </p>
+              <br />
+              <p>
                 情報理工学部プロジェクト団体Ri-one
                 <br />
                 --- 団員 (Small Size League)
-                <br />
               </p>
             </div>
             <div className="timeline-item" date-is="2022">
@@ -36,6 +42,7 @@ export const About = () => (
               <br />
               <br />
               立命館守山高校課題研究アドバイザー
+              <br />
             </div>
             <div className="timeline-item" date-is="2023"></div>
           </div>
@@ -53,6 +60,11 @@ export const About = () => (
               <p>
                 KC3 「OWASP ZAP を使った脆弱性診断で Webセキュリティを学ぼう！」
               </p>
+              <br />
+              <p> 第7回千葉大学セキュリティバグハンティングコンテスト</p>
+            </div>
+            <div className="timeline-item" date-is="2022-10">
+              <p>JPHACKS 2022</p>
             </div>
           </div>
         </div>
