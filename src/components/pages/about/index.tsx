@@ -62,6 +62,8 @@ export const About = () => (
               </p>
               <br />
               <p> 第7回千葉大学セキュリティバグハンティングコンテスト</p>
+              <br />
+              <p>さくらインターネットスポンサー締結</p>
             </div>
             <div className="timeline-item" date-is="2022-10">
               <p>JPHACKS 2022</p>
