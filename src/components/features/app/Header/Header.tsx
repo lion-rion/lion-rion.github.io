@@ -1,10 +1,9 @@
 import React from 'react';
-import { FiSun } from 'react-icons/fi';
 import { Link } from '@/components/common/Link';
 import { ContentLayout } from '@/components/features/app/Layout';
 import { useDarkMode } from '@/hooks/useDarkMode';
-import { NavBar } from './NavBar';
 import { Hamburger } from '../Hamburger';
+import { NavBar } from './NavBar';
 
 export const Header = () => {
   const { toggle } = useDarkMode();
