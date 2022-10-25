@@ -4,6 +4,7 @@ import { Link } from '@/components/common/Link';
 import { ContentLayout } from '@/components/features/app/Layout';
 import { useDarkMode } from '@/hooks/useDarkMode';
 import { NavBar } from './NavBar';
+import { Hamburger } from '../Hamburger';
 
 export const Header = () => {
   const { toggle } = useDarkMode();
@@ -21,15 +22,8 @@ export const Header = () => {
           <NavBar />
         </div>
 
-        <div className="flex gap-4">
-          <button
-            type="button"
-            className="icon-btn"
-            aria-label="toggle theme"
-            onClick={() => toggle()}
-          >
-            <FiSun />
-          </button>
+        <div className="-mr-4">
+          <Hamburger></Hamburger>
         </div>
       </nav>
     </ContentLayout>
