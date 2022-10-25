@@ -94,6 +94,27 @@
   transition: box-shadow 0.2s;
 }
 
+.card-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px -2px #000a3c1a;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+  background-color: white;
+  color: black;
+  border: 1px solid #f2f2f2;
+  transition: 0.5s;
+}
+
+.card-link:hover {
+  transition: 0.5s;
+  box-shadow: 0 6px 30px -4px #001b4433;
+  color: white;
+  background-color: rgb(65, 194, 229);
+}
+
 .w-45 {
   width: 45%;
 }

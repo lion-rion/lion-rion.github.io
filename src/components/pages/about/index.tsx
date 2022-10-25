@@ -67,6 +67,8 @@ export const About = () => (
             </div>
             <div className="timeline-item" date-is="2022-10">
               <p>JPHACKS 2022</p>
+              <br />
+              <p>IROS2022 Kyoto ボランティア</p>
             </div>
           </div>
         </div>
