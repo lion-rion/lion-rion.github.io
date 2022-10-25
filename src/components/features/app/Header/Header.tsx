@@ -21,7 +21,7 @@ export const Header = () => {
           <NavBar />
         </div>
 
-        <div className="-mr-4">
+        <div className="-mr-4 lg:hidden">
           <Hamburger></Hamburger>
         </div>
       </nav>
