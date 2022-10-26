@@ -20,7 +20,7 @@ tags:
 
 ---
 
-<img width="563" alt="スクリーンショット 2022-10-24 3 41 43" src="https://user-images.githubusercontent.com/79553411/197409841-1ba3e29a-ffff-456b-bcd0-066d1505dbe2.png">
+![](https://user-images.githubusercontent.com/79553411/197409841-1ba3e29a-ffff-456b-bcd0-066d1505dbe2.png)
 
 ---
 
@@ -34,7 +34,7 @@ tags:
 
 ---
 
-<img width="555" alt="スクリーンショット 2022-10-24 3 38 18" src="https://user-images.githubusercontent.com/79553411/197409722-e3d64aac-aac7-41dd-adcb-5b3e5edb43c0.png">
+![](https://user-images.githubusercontent.com/79553411/197409722-e3d64aac-aac7-41dd-adcb-5b3e5edb43c0.png)
 
 ---
 
@@ -44,7 +44,7 @@ tags:
 
 ---
 
-<img width="174" alt="スクリーンショット 2022-10-24 3 35 47" src="https://user-images.githubusercontent.com/79553411/197409632-eb8f611f-10a8-4fe7-b862-369c402b0566.png">
+![](https://user-images.githubusercontent.com/79553411/197409632-eb8f611f-10a8-4fe7-b862-369c402b0566.png)
 
 ---
 
@@ -54,7 +54,7 @@ tags:
 
 ---
 
-<img width="885" alt="スクリーンショット 2022-10-24 3 54 16" src="https://user-images.githubusercontent.com/79553411/197410368-8411c1cc-3310-4898-a290-6a9d5dc98ccf.png">
+![](https://user-images.githubusercontent.com/79553411/197410368-8411c1cc-3310-4898-a290-6a9d5dc98ccf.png)
 
 ---
 
@@ -64,7 +64,7 @@ catコマンドの結果に色を付けてくれます
 
 ---
 
-<img width="567" alt="スクリーンショット 2022-10-24 3 44 44" src="https://user-images.githubusercontent.com/79553411/197409962-4f373bd2-8993-4be2-b180-239c2edb4b59.png">
+![](https://user-images.githubusercontent.com/79553411/197409962-4f373bd2-8993-4be2-b180-239c2edb4b59.png)
 
 ---
 
@@ -74,7 +74,7 @@ lsの結果にアイコンを付けてくれて，色付けもしてくれるの
 
 ---
 
-<img width="208" alt="スクリーンショット 2022-10-24 3 49 17" src="https://user-images.githubusercontent.com/79553411/197410154-1ed5cd4c-646d-472b-8490-4cf43aa16551.png">
+![](https://user-images.githubusercontent.com/79553411/197410154-1ed5cd4c-646d-472b-8490-4cf43aa16551.png)
 
 ---
 
@@ -84,7 +84,7 @@ lsの結果にアイコンを付けてくれて，色付けもしてくれるの
 
 ---
 
-<img width="717" alt="スクリーンショット 2022-10-24 3 52 15" src="https://user-images.githubusercontent.com/79553411/197410280-556941b6-f082-49aa-893e-8853c9413610.png">
+![](https://user-images.githubusercontent.com/79553411/197410280-556941b6-f082-49aa-893e-8853c9413610.png)
 
 ---
 
