@@ -57,6 +57,10 @@ export const About = () => (
               </p>
             </div>
             <div className="timeline-item" date-is="2022-9">
+              <p> GMOインターネット インフラコース インターン</p>
+              <br />
+               <p> GMOインターネット セキュリティコース インターン</p>
+              <br />
               <p>
                 KC3 「OWASP ZAP を使った脆弱性診断で Webセキュリティを学ぼう！」
               </p>
